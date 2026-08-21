@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+*.log
+.vite
+.claude/scheduled_tasks.lock
+
+# Excel's own lock files (created while the file is open in Excel) — never commit these.
+excel/~$*.xlsx
+excel/~$*.xls
